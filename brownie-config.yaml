@@ -1,0 +1,21 @@
+# Brownie configuration file
+# https://eth-brownie.readthedocs.io/en/stable/config.html
+
+# exclude SafeMath when calculating test coverage
+# https://eth-brownie.readthedocs.io/en/v1.10.3/config.html#exclude_paths
+reports:
+  exclude_contracts:
+    - SafeMath
+compiler:
+    solc:
+        version: 0.8.17
+        remappings:
+            - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.1.0"
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.1.0
+  - OpenZeppelin/openzeppelin-contracts-upgradeable@4.8.1
+
+# enable output of development artifacts to load with react
+dev_deployment_artifacts: true
+
+dotenv: .env    # enviroment variables
