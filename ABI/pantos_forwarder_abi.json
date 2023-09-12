@@ -1,0 +1,54 @@
+{
+  "abi": [
+    
+    {
+      "inputs": [],
+      "name": "getPantosHub",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+
+    {
+      "inputs": [],
+      "name": "getPantosToken",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+
+    {
+      "inputs": [],
+      "name": "getPantosValidator",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+
+
+
+
+
+
+
+    
+  ]
+}
